@@ -1,0 +1,370 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 May, 2021, 3:59:13 PM
+    Author     : 91868
+*/
+
+
+{
+  box-sizing: border-box;
+}
+
+
+body{
+    margin : 0px;
+    background:#C2DFFF;
+     
+}
+
+.nav{
+    width:1520px;
+    background: #2B65EC;           
+    height :80px;
+    
+}
+
+
+
+
+
+.nav .logo{
+    
+    
+    float:right; 
+    margin-right:1px;
+    
+    
+   
+    
+}
+
+   
+.box{
+    float:right;
+    width :250px;
+   
+    height:20px;
+    background :white;
+    margin-top: 20px;
+    padding:10px;
+    display:inline flex;
+    border-radius:30px;
+    align-items :center;
+    
+    
+}
+
+
+
+.nav .box{
+    
+    float:right;
+    width:300px;
+    margin-right:150px;
+    
+    
+}
+
+.box > i{
+    font-size: 20px;
+    color: #777;
+}
+
+.box > input{
+    flex: 1;
+    height: 20px;
+    border :none;
+    outline:none;
+    font-size :18px;
+    padding-left: 10px;
+     position:absolute;
+}
+
+
+
+
+
+  
+
+.font{
+    
+    float:right;
+    width:120px;
+    background: #2B65EC;
+    
+    padding:0px;
+    margin-top:15px;
+    margin-left: 1220px;
+    position:absolute;
+    
+}
+
+    
+    
+   
+
+ul{
+    list-style : none;
+    padding :0px;
+    margin:0px;
+    position:absolute;
+    
+}
+
+ul li{
+    float :left;
+    margin-top :20px;
+    
+    
+}
+
+ul li a{
+    
+    width :150px;
+    color :white;
+    display :block;
+    text-decoration :none;
+    font-size:20px;
+    text-align :center;
+    padding :10px;
+    border-radius: 0px;
+   
+    font-weight :bold;
+}
+
+
+a:hover{
+    
+    background: #4CC417;
+  
+    
+} 
+
+ul li ul{
+    
+    background :#000033;
+      opacity:0.6;
+    
+}
+
+ul li ul li{
+    float:none;
+    
+}
+
+ul li ul{
+    display :none;  
+    
+}
+
+ul li:hover ul{
+    display :block;
+}
+
+.nav ul ul li a:hover{
+    background:lightblue;
+    color:black;
+    
+}
+
+.nav ul li:hover{
+    background: red;
+    
+}
+
+
+
+
+
+
+
+
+  div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 286px;
+  
+  
+ 
+  color:blue;
+  border-color: #ffffff;
+  
+  
+}
+
+
+
+
+
+
+
+
+div.gallery:hover {
+  border: 3px solid #777;
+  
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+   
+
+   
+  
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
+.zoom .first{
+  
+  
+  
+  
+  
+  
+  
+  transition: transform .2s;
+  
+  
+  margin: 0 auto;
+  
+}
+
+
+
+.zoom .first   :hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  height:180px;
+  width:140px;
+  
+ 
+}
+
+
+
+.zoom .second{
+  
+   
+  transition: transform .2s;
+ 
+  margin: 0 auto;
+}
+
+
+.zoom .second   :hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  height:180px;
+  width:140px ;
+ 
+  
+ 
+  
+}
+
+
+
+
+.zoom .third{
+  
+   
+  transition: transform .2s;
+ 
+  margin: 0 auto;
+}
+
+
+.zoom .third  :hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  height:180px;
+  width:140px ;
+ 
+ 
+  
+}
+
+
+
+.zoom .fourth{
+  
+   
+  transition: transform .2s;
+ 
+  margin: 0 auto;
+}
+
+
+
+
+.zoom .fourth   :hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  height:180px;
+  width:140px ;
+ 
+ 
+  
+}
+
+
+.zoom .fifth{
+  
+   
+  transition: transform .2s;
+ 
+  margin: 0 auto;
+ 
+}
+
+
+
+
+
+.zoom .fifth :hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  height:180px;
+  width:140px ;
+  
+ 
+  
+}
+
+
+.checked{
+    color:orange;
+}
+
+
+div.rate{
+ 
+  text-align: left;
+  margin-left:120px;
+  
+}
+
+.rate .price{
+    color:blue;
+}

@@ -1,0 +1,37 @@
+
+
+<html>
+<head> throw </head>
+<body>
+<input id ="demo" type = "text">
+<button type = "button" onclick = "myFunction()"> INPUT</button>
+<p id="message"</p>
+    <p1 id="message2"</p>
+<script>
+function myFunction()
+{
+  var msg,input;
+  msg = document.getElementById("message");
+  msg.innerHTML = "your input is taken!! ";
+  input = document.getElementById("demo").value;
+  try
+ {
+     
+      if(input == "") throw " is Empty";
+      
+      if(input>6) throw "is too High";
+      if(input<2) throw " is too low";
+      if(input = /[a-k]/g) throw  " is taken";
+  }
+  catch(err)
+  {
+     msg.innerHTML = "input" + err;
+  }
+}
+</script>
+
+
+
+</body>
+</html>
+
